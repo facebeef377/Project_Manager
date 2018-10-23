@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Manager</title>
+    
+    <!--CSS-->  
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
+    
+    <!--jQuery-->
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/sweetalert2.all.js"></script>
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <script type="text/javascript" src="js/tempusdominus-bootstrap-4.min.js"></script>
+    <script type="text/javascript" src="js/fontawesome-all.js"></script>
+    
+    <!--AngularJS-->
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="js/angular-route.js"></script>
+    <script type="text/javascript" src="js/ngStorage.min.js"></script>
+    <script type="text/javascript" src="js/simplePagination.js"></script>
+
+    <!--Application Controllers-->
+    
+  </head>
+  <body id="loginpage" ng-app="app" ng-controller="loginController" ng-init="initVars()">
+    <img src="images/logo.png" />
+    <h5>Zaloguj do Project Manager</h5>
+    <form>
+      <div class="form-group">
+        <input class="form-control" type="text" placeholder="Login" />
+      </div>
+      <div class="form-group">
+        <input class="form-control" type="password" placeholder="Hasło" />
+      </div>
+      <button class="btn btn-pm">Zaloguj</button>
+    </form>
+    <p>Zapomniałem hasła</p>
+    <p>Poproś o dostęp</p>
+  </body>
+</html>

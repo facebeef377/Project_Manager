@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700');
+
+html {
+  font-family: 'Nunito', sans-serif;
+}
+
+form {
+  padding: 20px;
+  background: #f2f2f2;
+  border-radius: 7px;
+}
+
+.btn-pm {
+  background: #44749D;
+  color: white
+}
+
+.btn-pm:hover {
+  background: #C6D4E1;
+  color: black
+}
+
+.bg-pm {
+  background: #44749D;
+  color: white
+}
+
+.progress-bar {
+  background: #44749D;
+}
+
+#loginpage {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+#loginpage h5 {
+  margin-bottom: 25px;
+}
+
+#loginpage p {
+  margin-top: 50px;
+  cursor: pointer;
+  color: #44749D;
+}
+
+#loginpage img {
+  object-fit: contain;
+  max-width: 500px;
+  margin: 0 auto;
+  image-rendering: initial;
+}
+
+#content {
+  margin-top: 50px;
+}
+
+.table {
+  margin-top: 50px;
+}
+
+.add_more {
+  color: #7c7a7a;
+  font-weight: 300;
+  margin-left: 50px;
+  font-size: 18px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.add_more:hover {
+  color: #777777;
+  font-weight: 300;
+  margin-left: 50px;
+  font-size: 22px;
+}
