@@ -6,7 +6,7 @@ app
     function ($rootScope, $scope, $http, $localStorage, Pagination) {
 
         $scope.initVars = function() {
-            console.log("%cProject Manager Init!","color:orange; font-size: 72px;");
+            console.log("%cProject Manager Init!","color:orange; font-size: 24px;");
         }
 
     });
